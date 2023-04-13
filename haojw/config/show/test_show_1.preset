@@ -1,0 +1,62 @@
+{
+    "app": {
+        "maya2019": {
+            "exec_cmd": "/sw/PLE/thirdparty/maya/2019.3-bfx3/Linux/bin/maya", 
+            "wiki_url": "maya2019 help page", 
+            "level": 0, 
+            "icon_path": "ui/app_icon/maya.png", 
+            "pre_exec": "source /sw/PLE/workspace/haojw/ts/haojw_work/launcher/config/set_arnold.sh", 
+            "platform": "linux", 
+            "label_name": "Maya", 
+            "version": "default 2019", 
+            "shows": null, 
+            "type": "software", 
+            "id": 1, 
+            "name": "maya"
+        }, 
+        "maya2022": {
+            "exec_cmd": "/sw/PLE/thirdparty/maya/2022.3-bfx3/Linux/bin/maya2022", 
+            "wiki_url": "maya2022 help page", 
+            "level": 0, 
+            "icon_path": "ui/app_icon/maya.png", 
+            "pre_exec": "env", 
+            "platform": "linux", 
+            "label_name": "Maya", 
+            "version": "2022", 
+            "shows": null, 
+            "type": "software", 
+            "id": 2, 
+            "name": "maya"
+        }, 
+        "houdini18.5.351": {
+            "exec_cmd": "/sw/PLE/thirdparty/houdini/18.5.351/Linux/bin/hython-bin", 
+            "wiki_url": "houdini help page", 
+            "level": 0, 
+            "icon_path": "ui/app_icon/houdini.png", 
+            "pre_exec": "env", 
+            "platform": "linux", 
+            "label_name": "Houdini", 
+            "version": "default 18.5.351", 
+            "shows": "", 
+            "type": "software", 
+            "id": 4, 
+            "name": "houdini"
+        },
+        "houdini19.0.455": {
+            "exec_cmd": "/sw/PLE/thirdparty/houdini/19.0.455/Linux/python2.7/bin/houdini-bin", 
+            "wiki_url": "houdini help page", 
+            "level": -1, 
+            "icon_path": "ui/app_icon/houdini.png", 
+            "pre_exec": "env", 
+            "platform": "linux", 
+            "label_name": "Houdini", 
+            "version": "19.0.455", 
+            "shows": "", 
+            "type": "software", 
+            "id": 3, 
+            "name": "houdini"
+        }
+    }, 
+    "name": "test_show_1", 
+    "description": "test amazing show 1"
+}

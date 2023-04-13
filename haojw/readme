@@ -1,0 +1,10 @@
+抱歉由于个人原因没有在windows系统上写。
+在ui上用了第三方库dayu
+如果要在windows上复现需要下载库dayu，以及pyqt5或者pyside2，替换BQt为PyQt5或PySide2，以及替换项目preset的路径为windows
+
+目录/launcher/ui/gui/main_gui.py 为程序的主要运行文件
+项目的预设在/launcher/config/show 下
+
+参数exec_cmd为运行DCC软件命令
+参数pre_exec为运行DCC软件前 添加环境变量的命令 可以参考launcher/config/show/test_show_1.preset 在maya2019中的pre_exec设置。
+

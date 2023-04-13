@@ -1,0 +1,82 @@
+{
+    "maya2019": {
+        "data": {
+            "id": 1,
+            "exec_cmd": "maya", 
+            "icon_path": "ui/app_icon/maya.png", 
+            "label_name": "Maya", 
+            "name": "maya", 
+            "wiki_url": "maya2019 help page", 
+            "level": 0, 
+            "pre_exec": "", 
+            "platform": "linux", 
+            "version": "2019", 
+            "type": "software", 
+            "shows": null
+        }
+    }, 
+    "maya2022": {
+        "data": {
+            "id": 2,
+            "exec_cmd": "maya", 
+            "icon_path": "ui/app_icon/maya.png", 
+            "label_name": "Maya", 
+            "name": "maya", 
+            "wiki_url": "maya2022 help page", 
+            "level": 0, 
+            "pre_exec": "", 
+            "platform": "linux", 
+            "version": "2022", 
+            "type": "software", 
+            "shows": null
+        }
+    }, 
+    "houdini19.0.455": {
+        "data": {
+            "id": 3,
+            "exec_cmd": "houdini", 
+            "icon_path": "ui/app_icon/houdini.png", 
+            "label_name": "Houdini", 
+            "name": "houdini", 
+            "wiki_url": "houdini help page", 
+            "level": 0, 
+            "pre_exec": "", 
+            "platform": "linux", 
+            "version": "19.0.455", 
+            "type": "software", 
+            "shows": ""
+        }
+    }, 
+    "houdini18.5.351": {
+        "data": {
+            "id": 4,
+            "exec_cmd": "houdini", 
+            "icon_path": "ui/app_icon/houdini.png", 
+            "label_name": "Houdini", 
+            "name": "houdini", 
+            "wiki_url": "houdini help page", 
+            "level": 0, 
+            "pre_exec": "", 
+            "platform": "linux", 
+            "version": "18.5.351", 
+            "type": "software", 
+            "shows": ""
+        }
+    },
+    "nuke13.0": {
+        "data": {
+            "id": 5,
+            "exec_cmd": "nuke13.0", 
+            "icon_path": "ui/app_icon/nuke.png", 
+            "label_name": "Nuke", 
+            "name": "nuke", 
+            "wiki_url": "nuke help page", 
+            "level": 0, 
+            "pre_exec": "", 
+            "platform": "linux", 
+            "version": "13.0v2", 
+            "type": "software", 
+            "shows": ""
+        }
+    }
+}
